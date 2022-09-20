@@ -1,10 +1,13 @@
 import React from "react";
 import "./Weather.css";
+import axios from "axios";
 
 export default function Weather() {
+  const apiKey = "2f7186f46a8461ec8b967033c17abe5b";
+
   return (
     <div className="container">
-      <div className="weather">
+      <div className="weather shadow">
         <form>
           <input type="search" placeholder="City" className="form-input" />
           <input type="submit" value="search" className="btn btn-primary" />
@@ -25,6 +28,13 @@ export default function Weather() {
           </div>
         </div>
       </div>
+      <footer>
+        {" "}
+        <a href="https://github.com/sweetjosie/react-wheather-project">
+          open source
+        </a>{" "}
+        coded by Josie Maia
+      </footer>
     </div>
   );
 }

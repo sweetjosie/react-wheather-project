@@ -1,13 +1,21 @@
 import React from "react";
 import "./App.css";
 import "./Weather.js";
+import Weather from "./Weather.js";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <div className="container">
+        <Weather defaultCity="New York" />
+        <footer>
+          <a href="https://github.com/sweetjosie/react-wheather-project">
+            Open Source
+          </a>
+          Coded by{" "}
+          <a href="https://stellar-toffee-0a15c6.netlify.app">Josie Maia</a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;

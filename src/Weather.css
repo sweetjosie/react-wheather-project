@@ -3,7 +3,7 @@
   margin: 0 auto;
   margin-top: 70px;
   padding: 25px;
-  border: 1px solid rgb(11, 1, 1);
+  border: 1px solid rgba(111, 109, 109, 0.005);
   border-radius: 45px;
   background-color: rgba(230, 230, 221, 0.7);
 }

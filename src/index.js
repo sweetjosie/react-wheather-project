@@ -5,6 +5,7 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import Weather from "./Weather";
 import "./Weather.css";
+import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,3 +14,4 @@ root.render(
     <Weather />
   </React.StrictMode>
 );
+reportWebVitals();

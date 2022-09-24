@@ -1,4 +1,16 @@
 {
+  "name": "react-weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.27.x",
+    "bootstrap": "^5.x",
+    "postcss-normalize": "^10.0.1",
+    "react": "^18.x",
+    "react-animated-weather": "^4.x",
+    "react-dom": "^18.x",
+    "react-scripts": "5.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -6,10 +18,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -23,10 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "dependencies": {
-    "axios": "^0.27.2",
-    "bootstrap": "^5.2.1",
-    "react-scripts": "^5.0.1",
+  "devDependencies": {
     "web-vitals": "^3.0.2"
   }
 }

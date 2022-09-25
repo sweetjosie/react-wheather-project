@@ -30,10 +30,10 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
   function handleCity(event) {
     setCity(event.target.value);
-    search();
   }
 
   if (weatherData.ready) {
@@ -57,7 +57,7 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
-        <WeatherInfo data={props.weatherData} />
+        <WeatherInfo weatherData={weatherData} />
       </div>
     );
   } else {

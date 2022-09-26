@@ -8,12 +8,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="New York" />
-        <footer>
+        <footer className="text-center">
           <a href="https://github.com/sweetjosie/react-wheather-project">
-            Open Source
+            Open Source  
           </a>
-          Coded by{" "}
-          <a href="https://stellar-toffee-0a15c6.netlify.app">Josie Maia</a>
+          {"   "}Coded by {"   "} 
+          <a href="https://stellar-toffee-0a15c6.netlify.app"> Josie Maia </a>
         </footer>
       </div>
     </div>

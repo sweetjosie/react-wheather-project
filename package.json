@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.27.x",
     "bootstrap": "^5.x",
+    "open-weather-icons": "^0.0.8",
     "postcss-normalize": "^10.0.1",
     "react": "^18.x",
     "react-animated-weather": "^4.x",

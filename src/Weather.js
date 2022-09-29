@@ -42,7 +42,7 @@ export default function Weather(props) {
       <div className="weather shadow">
         <form onSubmit={handleSubmit}>
           <div className="row inputBox">
-            <div className="col-9">
+            <div className="col-8 ">
               <input
                 type="search"
                 placeholder="City"
@@ -50,13 +50,16 @@ export default function Weather(props) {
                 autoFocus="on"
                 onChange={handleCity}
               />
+              </div>
+            <div className= "col-3">
               <input
                 type="submit"
                 value="search"
-                className=" col-3 btn btn-primary"
+                className="  btn btn-primary w-100"
               />
+              </div>
             </div>
-          </div>
+          
         </form>
         <WeatherInfo weatherData={weatherData} />
       </div>

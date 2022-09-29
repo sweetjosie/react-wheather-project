@@ -9,4 +9,12 @@
 }
 ul {
   list-style: none;
+  font-size: 24px;
+}
+.showTemp{
+  font-size: 30px;
+  font-weight: bold;
+}
+.inputBox{
+  cursor: pointer;
 }

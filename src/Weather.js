@@ -18,7 +18,7 @@ export default function Weather(props) {
       city: response.data.name,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
-      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}`,
+      iconUrl:`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png` ,
     });
   }
 
@@ -41,7 +41,7 @@ export default function Weather(props) {
     return (
       <div className="weather shadow">
         <form onSubmit={handleSubmit}>
-          <div className="row">
+          <div className="row inputBox">
             <div className="col-9">
               <input
                 type="search"

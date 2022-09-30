@@ -1,5 +1,5 @@
 import React from "react";
-import FormatedDate from "./FormatedDate";
+import FormatedDate from "./DayTimeInfo";
 import WeatherTemp from "./WeatherTemp"
 
 export default function WeatherInfo(props) {
